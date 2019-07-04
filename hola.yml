@@ -1,0 +1,6 @@
+- name: Mensaje de ejemplo
+  hosts: all
+  tasks:
+    - name: Ejemplo
+      debug:
+        msg: "Hola Mundo!"
